@@ -68,3 +68,6 @@
 }
 @media(min-width:761px){.mobile-nav,.mobile-menu-toggle{display:none!important}}
 @media(prefers-reduced-motion:reduce){.mobile-menu-toggle span{transition:none}}
+
+/* Keep dropdown anchored below the site header on phones. */
+@media(max-width:760px){.mobile-nav{position:absolute;top:64px;left:0;right:0}.header .mobile-menu-toggle{position:absolute;right:5%;top:50%;z-index:2}}
