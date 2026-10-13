@@ -113,3 +113,6 @@
 
 /* Portfolio introductory copy: increase font size by 2px. */
 .portfolio .section-heading>p{font-size:17px}
+
+/* Mobile: increase differentiator label font from 11px to 14px. */
+@media(max-width:760px){.benefits div{font-size:14px}}
