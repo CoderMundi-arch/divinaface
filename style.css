@@ -80,3 +80,11 @@
 
 /* Divina Face — category heading within services */
 .service-list .services-category{grid-column:1/-1;color:var(--gold);font:600 12px/1.4 Arial,sans-serif;letter-spacing:.2em;padding-top:12px;border-top:1px solid #d4b98644}
+
+/* Mobile gallery: keep titles and descriptions in separate vertical zones. */
+@media(max-width:760px){
+ .portfolio .gallery .work .work-title{bottom:112px;left:24px;right:24px;gap:9px}
+ .portfolio .gallery .work .work-title h3{font-size:clamp(25px,7vw,29px);line-height:1.08;margin:0;max-width:100%;text-wrap:balance}
+ .portfolio .gallery .work .work-title span{padding-bottom:6px}
+ .portfolio .gallery .work>p{bottom:25px;left:24px;right:24px;margin:0;font-size:13px;line-height:1.45;min-height:38px;max-width:100%}
+}
