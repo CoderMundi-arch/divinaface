@@ -68,3 +68,19 @@
  .portfolio .gallery .work .work-title{bottom:76px!important}
  .portfolio .gallery .work>p{bottom:24px!important;min-height:40px!important;line-height:1.4!important}
 }
+
+/* Portfolio mobile cards: title and description share a single 12px-gap block. */
+@media(max-width:760px){
+ .portfolio .gallery .work .work-copy{
+  position:absolute;z-index:2;left:24px;right:24px;bottom:24px;
+  display:flex;flex-direction:column;align-items:flex-start;gap:12px;
+ }
+ .portfolio .gallery .work .work-copy .work-title{
+  position:static!important;display:flex;flex-direction:column-reverse;
+  width:100%;margin:0!important;gap:9px;
+ }
+ .portfolio .gallery .work .work-copy>p{
+  position:static!important;min-height:0!important;margin:0!important;
+  font-size:13px;line-height:1.4;color:#e4e0d7;
+ }
+}
