@@ -88,3 +88,25 @@
  .portfolio .gallery .work .work-title span{padding-bottom:6px}
  .portfolio .gallery .work>p{bottom:25px;left:24px;right:24px;margin:0;font-size:13px;line-height:1.45;min-height:38px;max-width:100%}
 }
+
+/* Match testimonial carousel arrows to the results gallery arrows. */
+.reviews .review-controls{display:flex;justify-content:flex-start;align-items:center;gap:18px}
+.reviews .review-controls button{
+ position:relative;display:grid;place-items:center;
+ width:56px;min-width:56px;height:56px;min-height:56px;
+ padding:0;border:1px solid #d4b986a5;border-radius:8px;
+ background:transparent;color:var(--gold);font-size:0;cursor:pointer
+}
+.reviews .review-controls button::after{
+ position:absolute;inset:0;display:grid;place-items:center;
+ font:33px/1 Georgia,serif;color:var(--gold)
+}
+.reviews .review-controls button[data-review="prev"]::after{content:"‹"}
+.reviews .review-controls button[data-review="next"]::after{content:"›"}
+@media(max-width:760px){
+ .reviews .review-controls{position:static;margin:18px 0 16px;gap:18px}
+ .reviews .review-controls button{
+  width:48px;min-width:48px;height:48px;min-height:48px;
+  border-radius:8px;background:transparent
+ }
+}
