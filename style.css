@@ -116,3 +116,13 @@
 
 /* Mobile: increase differentiator label font from 11px to 14px. */
 @media(max-width:760px){.benefits div{font-size:14px}}
+
+/* Backgrounds reais das seções Avaliações e Localização. */
+.reviews{
+ background-image:linear-gradient(180deg,rgba(7,10,8,.86),rgba(7,10,8,.91)),url("assets/reviews-salon-background.png");
+ background-position:center center;background-size:cover;background-repeat:no-repeat;
+}
+.location{
+ background-image:linear-gradient(180deg,rgba(7,10,8,.88),rgba(7,10,8,.94)),url("assets/location-salon-background.png");
+ background-position:center center;background-size:cover;background-repeat:no-repeat;
+}
