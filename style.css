@@ -110,3 +110,6 @@
   border-radius:8px;background:transparent
  }
 }
+
+/* Portfolio introductory copy: increase font size by 2px. */
+.portfolio .section-heading>p{font-size:17px}
