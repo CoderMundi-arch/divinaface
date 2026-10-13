@@ -7,3 +7,8 @@
 .team-card{min-height:510px}.team-description{color:#e7dccc;font-size:18px;line-height:1.8;padding:20px 5%}.team-description p+p{margin-top:18px}.team-description .primary-btn{margin-top:24px}
 .footer-brand{font-size:clamp(46px,7vw,78px);text-transform:lowercase}
 @media(max-width:760px){.hero-brand{font-size:clamp(52px,12vw,84px)}.hero-brand span{font-size:10px}.team-grid{grid-template-columns:1fr;max-width:460px}.team-description{padding:10px 2%;font-size:16px}.team-card{min-height:430px;height:430px}}
+
+/* Single full-bleed Bio hero background */
+.hero-media.hero-single-image{display:block;position:absolute;inset:0;width:100%;height:100%}
+.hero-media.hero-single-image>img{width:100%;height:100%;object-fit:cover;object-position:center center;transform:none;filter:none}
+@media(max-width:760px){.hero-media.hero-single-image{display:block}.hero-media.hero-single-image>img{object-position:center center}}
