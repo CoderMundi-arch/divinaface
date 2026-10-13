@@ -126,3 +126,8 @@
  background-image:linear-gradient(180deg,rgba(7,10,8,.88),rgba(7,10,8,.94)),url("secaomapa.jpeg");
  background-position:center center;background-size:cover;background-repeat:no-repeat;
 }
+
+/* Make the first service card fully visible at carousel start. */
+.portfolio .gallery .work:first-child{margin-left:0!important}
+.portfolio .gallery{scroll-padding-inline:0!important}
+@media(max-width:760px){.portfolio .gallery .work:first-child{margin-left:0!important}}
