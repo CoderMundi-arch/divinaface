@@ -62,3 +62,9 @@
 }
 @media(min-width:761px){nav.mobile-nav#mobile-navigation{display:none!important}}
 }
+
+/* Gallery cards: precisely 12px between the title block and description on mobile. */
+@media(max-width:760px){
+ .portfolio .gallery .work .work-title{bottom:76px!important}
+ .portfolio .gallery .work>p{bottom:24px!important;min-height:40px!important;line-height:1.4!important}
+}
