@@ -104,3 +104,6 @@
  .mobile-nav a:last-child{grid-column:1/-1}
  html{scroll-padding-top:160px}
 }
+
+/* Hide duplicated header wordmark only on mobile; preserve hero branding. */
+@media(max-width:760px){.header{display:none!important}.mobile-nav{margin-top:0!important}}
