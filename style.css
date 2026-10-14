@@ -138,3 +138,11 @@
 .portfolio .gallery .work .work-copy .work-title h3{margin:0;line-height:1.12}
 .portfolio .gallery .work .work-copy>p{position:static;inset:auto;margin:0;color:#f0e7d5;font-size:15px;line-height:1.4;text-shadow:0 1px 8px #000;max-width:100%}
 @media(max-width:760px){.portfolio .gallery .work .work-copy{left:24px;right:24px;bottom:23px;gap:10px}.portfolio .gallery .work .work-copy .work-title{position:static;bottom:auto;left:auto;right:auto;gap:9px}.portfolio .gallery .work .work-copy>p{position:static;bottom:auto;left:auto;right:auto;font-size:13px;min-height:0}}
+
+/* Simplified services feature: vertically and horizontally centered text. */
+.services.services-focused .services-copy{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;max-width:none;margin:0;padding:72px 7%;min-height:610px}
+.services.services-focused .services-copy>p:not(.eyebrow){max-width:460px;margin-inline:auto}
+.services.services-focused .services-copy .button{margin-top:30px}
+.services.services-focused .services-visual video{display:block;object-fit:cover}
+@media(max-width:900px){.services.services-focused .services-copy{min-height:430px;padding:70px 6%}.services.services-focused .services-visual{min-height:400px}}
+@media(max-width:760px){.services.services-focused .services-copy{min-height:360px;padding:56px 6% 48px}.services.services-focused .services-copy .button{margin-top:24px}.services.services-focused .services-visual{min-height:390px}}
