@@ -102,3 +102,9 @@
 /* Four-link navigation, equal columns and readable desktop links. */
 @media(min-width:761px){header.header nav{display:flex!important;align-items:center;justify-content:center;gap:clamp(12px,2.2vw,32px)}header.header nav>a{display:inline-flex!important;align-items:center;min-height:42px;white-space:nowrap}header.header nav>a:not(.nav-cta){font-size:14px}}
 @media(max-width:760px){nav.mobile-nav#mobile-navigation{grid-template-columns:repeat(4,minmax(0,1fr))!important}nav.mobile-nav#mobile-navigation>a{font-size:clamp(10px,2.7vw,12px)!important}}
+
+/* Compact service introduction on phones */
+@media (max-width:760px){
+ .services-focused .services-copy{padding-top:24px;padding-bottom:44px}
+ .services-focused .services-copy h2{margin-top:0}
+}
