@@ -108,3 +108,11 @@
  .services-focused .services-copy{padding-top:24px;padding-bottom:44px}
  .services-focused .services-copy h2{margin-top:0}
 }
+
+/* Mobile: reduzir o espaço acima do título da seção Atendimento */
+@media (max-width:760px) {
+  .services.services-focused .services-copy {
+    min-height: 0;
+    padding: 16px 6% 38px;
+  }
+}
